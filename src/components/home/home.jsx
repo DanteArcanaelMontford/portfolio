@@ -9,14 +9,14 @@ function Home() {
     <div id='home' className='container home-container'>
       <div className='logo'>
         <div className='hover-show active'>
-          <a href='#html' className='circle'></a>
-          <a href='#css' className='circle'></a>
-          <a href='#javascript' className='circle'></a>
-          <a href='#bootstrap' className='circle'></a>
-          <a href='#react' className='circle'></a>
-          <a href='#nestjs' className='circle'></a>
-          <a href='#node' className='circle'></a>
-          <a href='#python3' className='circle'></a>
+          <a href='#html-card' className='circle'></a>
+          <a href='#css-card' className='circle'></a>
+          <a href='#javascript-card' className='circle'></a>
+          <a href='#bootstrap-card' className='circle'></a>
+          <a href='#react-card' className='circle'></a>
+          <a href='#nestjs-card' className='circle'></a>
+          <a href='#nodejs-card' className='circle'></a>
+          <a href='#python-card' className='circle'></a>
         </div>
 
         <img src={img} alt='profile-img' />
