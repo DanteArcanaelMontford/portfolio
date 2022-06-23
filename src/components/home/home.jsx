@@ -14,8 +14,8 @@ function Home() {
           <a href='#javascript' className='circle'></a>
           <a href='#bootstrap' className='circle'></a>
           <a href='#react' className='circle'></a>
+          <a href='#nestjs' className='circle'></a>
           <a href='#node' className='circle'></a>
-          <a href='#home' className='circle'></a>
           <a href='#python3' className='circle'></a>
         </div>
 

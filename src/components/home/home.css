@@ -105,20 +105,19 @@
 
 .home-container .logo .hover-show.active .circle:nth-child(7) {
   position: absolute;
-  transform: translateX(-150%) translateY(-150%);
-  background: url(../props/python.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.home-container .logo .hover-show.active .circle:nth-child(8) {
-  position: absolute;
   transform: translateX(-210%);
   background: url(../props/node.jpg);
   background-size: cover;
   background-position: center;
 }
 
+.home-container .logo .hover-show.active .circle:nth-child(8) {
+  position: absolute;
+  transform: translateX(-150%) translateY(-150%);
+  background: url(../props/python.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 .home-container img {
   position: absolute;
