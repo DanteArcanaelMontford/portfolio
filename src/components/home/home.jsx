@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import './home.css';
 import img from '../props/home-photo.jpg';
 import Buttons from '../button/button';
@@ -7,19 +8,18 @@ function Home() {
   return (
     <div id='home' className='container home-container'>
       <div className='logo'>
-        <div className='hover-show'>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
+        <div className='hover-show active'>
+          <a href='#html' className='circle'></a>
+          <a href='#css' className='circle'></a>
+          <a href='#javascript' className='circle'></a>
+          <a href='#bootstrap' className='circle'></a>
+          <a href='#react' className='circle'></a>
+          <a href='#node' className='circle'></a>
+          <a href='#home' className='circle'></a>
+          <a href='#python3' className='circle'></a>
         </div>
 
-        <img src={img} alt='' />
+        <img src={img} alt='profile-img' />
       </div>
 
       <a href='#footer' className='scroll-down'>

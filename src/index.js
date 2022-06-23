@@ -4,11 +4,11 @@ import WebContent from './app';
 
 ReactDOM.render(<WebContent />, document.getElementById('root'));
 
-const toggle = document.querySelector('.hover-show');
+// const toggle = document.querySelector('.hover-show');
 
-toggle.addEventListener('click', () => {
-  toggle.classList.toggle('active');
-});
+// toggle.addEventListener('click', () => {
+//   toggle.classList.toggle('active');
+// });
 
 let Icons = document.querySelectorAll('.navigation .icon');
 
