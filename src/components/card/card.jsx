@@ -1,12 +1,13 @@
 import './card.css';
 
 
-const Card = ({img, title, description, id}) => {
+
+const Card = ({icon, title, description, id}) => {
   return (
     <div id={id} className='container'>
       <div className="card">
         <div className="imgBx">
-          <img src={img} alt="" />
+          {icon}
         </div>
         <div className="content">
           <h2>{title}</h2>
