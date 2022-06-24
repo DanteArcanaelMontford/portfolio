@@ -6,7 +6,7 @@ function Buttons() {
       <a href="#about" className="btn sec">
         Learn more
       </a>
-      <a href="../props/Renato_Pinheiro- CV.pdf" className="btn pri" download>
+      <a href="/Renato_Pinheiro_CV.pdf" className="btn pri" download>
         Curriculum
       </a>
       <a href="#contact" className="btn sec">
