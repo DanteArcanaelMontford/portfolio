@@ -4,19 +4,31 @@ import img from '../props/home-photo.jpg';
 import Buttons from '../button/button';
 import { BsMouse } from 'react-icons/bs';
 
+import { AiFillHtml5 } from "react-icons/ai";
+import { FaNodeJs } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { SiCss3 } from "react-icons/si";
+import { SiNestjs } from "react-icons/si";
+import { DiJavascript } from "react-icons/di";
+
+const color_pri = "rgb(82, 188, 250)";
+
+
 function Home() {
   return (
     <div id='home' className='container home-container'>
       <div className='logo'>
         <div className='hover-show active'>
-          <a href='#html-card' className='circle'></a>
-          <a href='#css-card' className='circle'></a>
-          <a href='#javascript-card' className='circle'></a>
-          <a href='#bootstrap-card' className='circle'></a>
-          <a href='#react-card' className='circle'></a>
-          <a href='#nestjs-card' className='circle'></a>
-          <a href='#nodejs-card' className='circle'></a>
-          <a href='#python-card' className='circle'></a>
+          <a href='#html-card' className='circle'><AiFillHtml5 fill={color_pri} size={70} /></a>
+          <a href='#css-card' className='circle'><SiCss3 fill={color_pri} size={70} /></a>
+          <a href='#javascript-card' className='circle'><DiJavascript fill={color_pri} size={70} /></a>
+          <a href='#bootstrap-card' className='circle'><FaBootstrap fill={color_pri} size={70} /></a>
+          <a href='#react-card' className='circle'><FaReact fill={color_pri} size={70} /></a>
+          <a href='#nestjs-card' className='circle'><SiNestjs fill={color_pri} size={70} /></a>
+          <a href='#nodejs-card' className='circle'><FaNodeJs fill={color_pri} size={70} /></a>
+          <a href='#python-card' className='circle'><FaPython fill={color_pri} size={70} /></a>
         </div>
 
         <img src={img} alt='profile-img' />

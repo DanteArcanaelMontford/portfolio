@@ -13,7 +13,7 @@ import { DiJavascript } from "react-icons/di";
 const Skills = () => {
   return (
     <div>
-      <span className="quali-text">My skills</span>
+      <h4 className="quali-text">My skills</h4>
       <div className="skills-container">
       <Card title={"HTML"} icon={<AiFillHtml5 className="icon" />} id='html-card'
           description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
