@@ -21,14 +21,14 @@ function Home() {
     <div id='home' className='container home-container'>
       <div className='logo'>
         <div className='hover-show active'>
-          <a href='#html-card' className='circle'><AiFillHtml5 fill={color_pri} size={52} /></a>
-          <a href='#css-card' className='circle'><SiCss3 fill={color_pri} size={52} /></a>
-          <a href='#javascript-card' className='circle'><DiJavascript fill={color_pri} size={52} /></a>
-          <a href='#bootstrap-card' className='circle'><FaBootstrap fill={color_pri} size={52} /></a>
-          <a href='#react-card' className='circle'><FaReact fill={color_pri} size={52} /></a>
-          <a href='#nestjs-card' className='circle'><SiNestjs fill={color_pri} size={52} /></a>
-          <a href='#nodejs-card' className='circle'><FaNodeJs fill={color_pri} size={52} /></a>
-          <a href='#python-card' className='circle'><FaPython fill={color_pri} size={52} /></a>
+          <a href='#skills' className='circle'><AiFillHtml5 fill={color_pri} size={52} /></a>
+          <a href='#skills' className='circle'><SiCss3 fill={color_pri} size={52} /></a>
+          <a href='#skills' className='circle'><DiJavascript fill={color_pri} size={52} /></a>
+          <a href='#skills' className='circle'><FaBootstrap fill={color_pri} size={52} /></a>
+          <a href='#skills' className='circle'><FaReact fill={color_pri} size={52} /></a>
+          <a href='#skills' className='circle'><SiNestjs fill={color_pri} size={52} /></a>
+          <a href='#skills' className='circle'><FaNodeJs fill={color_pri} size={52} /></a>
+          <a href='#skills' className='circle'><FaPython fill={color_pri} size={52} /></a>
         </div>
 
         <img src={img} alt='profile-img' />
