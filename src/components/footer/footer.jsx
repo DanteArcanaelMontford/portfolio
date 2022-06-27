@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div id="footer" className="container footer-container">
       <h1>
-        Thanks for visit me{" "}
+        Need a FullStack Developer or Security Analyst? Let's work together.{" "}
         <a href="#home">
           <h2>
             <BsMouse /> - scroll up -

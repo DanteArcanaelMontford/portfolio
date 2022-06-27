@@ -4,7 +4,7 @@ import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Navbar from "./components/nav/nav";
 import Footer from "./components/footer/footer";
-import Jobs from "./components/jobs/jobs";
+import Works from "./components/works/works";
 
 function WebContent() {
   return (
@@ -16,7 +16,7 @@ function WebContent() {
       <Navbar />
       <Home />
       <About />
-      <Jobs />
+      <Works />
       <Contact />
       <Footer />
     </>

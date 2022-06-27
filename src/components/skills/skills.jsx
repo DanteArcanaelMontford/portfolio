@@ -16,6 +16,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
+
 import { EffectCoverflow, Pagination } from "swiper";
 
 const Skills = () => {
@@ -44,80 +45,75 @@ const Skills = () => {
         >
           <SwiperSlide>
             <Card title={"HTML"} icon={<AiFillHtml5 className="icon" />} id='html-card'
-              description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+              description={`Skills developed with experience in HTML to creating responsives and well-structured full pages and ability to 
+              create unitary components (in conjunction with CSS) to be integrated as a whole in any project. 
+              Such components can be in pure HTML, CSS and Javascript or using frameworks like React.Js, VUE etc.`}
+            ></Card>
+
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Card title={"CSS"} icon={<SiCss3 className="icon" />} id='css-card'
+              description={`Various skills for component style development, full page responsiveness, good visual user experience, animations, user interactions using CSS3. 
+              Also, I have experience with proprocessors like SASS.Furthermore styling with CSS in JS using Styled Components.`}
+            />
+          </SwiperSlide>
+          
+          <SwiperSlide>
+            <Card title={"Javascript"} icon={<DiJavascript className="icon" />} id='javascript-card'
+            description={`Javascript skills for Frontend and Backend development, whether in animations, interactions and style of web pages. 
+            In addition development and integration of APIs, Security and Monitoring (DevOps). 
+            Furthermore, backend development with practices of SOLID, Clean Architecture and TDD concepts 
+            (as Jest with Node and developing skills with Cypress for react). 
+            Also evolving more and more in the concepts of Clean Code and experience using Typescript either.`}
             />
           </SwiperSlide>
 
           <SwiperSlide>
             <Card title={"React"} icon={<FaReact className="icon" />} id='react-card'
-              description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+              description={`Skills in React for the development of interactive, well-structured and responsive pages, 
+              using the most diverse types of available tools, such as Material UI, 
+              CSS In JS for Styled Components, React Hooks, Web Packs and API integration. 
+              Also, developing skills for automated testing in Cypress for frontend.`}
             />
           </SwiperSlide>
 
-          <SwiperSlide>
-            <Card title={"CSS"} icon={<SiCss3 className="icon" />} id='css-card'
-              description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
-            />
-          </SwiperSlide>
 
           <SwiperSlide>
             <Card title={"NestJs"} icon={<SiNestjs className="icon" />} id='nestjs-card'
-              description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+              description={`
+              Experience and skills developed in Nest.Js for API development, integrations with new APIs, backend development in general, 
+              database communication, custom routes and security.`}
             />
           </SwiperSlide>
 
           <SwiperSlide>
             <Card title={"NodeJs"} icon={<FaNodeJs className="icon" />} id='nodejs-card'
-              description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+              description={`
+              Skill in Nodejs for backend development in general such as API development, integrations, security and database communication, 
+              including using frameworks such as Express and Nest.Js. In addition, skills development being learned to use SOLID, 
+              Clean Architecture and TDD concepts with Jest.`}
             />
 
-          </SwiperSlide>
-
-          <SwiperSlide id='javascript-card'>
-            <Card title={"Javascript"} icon={<DiJavascript className="icon" />}
-              description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
-            />
           </SwiperSlide>
           
           <SwiperSlide>
             <Card title={"Python"} icon={<FaPython className="icon" />} id='python-card'
-              description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+              description={`
+              Python skills for backend development, security and automation tools and Computer Networks. If necessary, either for fronted development. 
+              Also, some skills developed for Web Scraping and Data Science.`}
             />
           </SwiperSlide>
 
           <SwiperSlide>
             <Card title={"Bootstrap"} icon={<FaBootstrap className="icon" />} id='bootstrap-card'
-              description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+              description={`
+              Skills in Boostrap framework to accelerate and facilitate the development of frontend pages and web tools, 
+              increasing productivity and product delivery speed, 
+              especially in Agile Methodologies, with Scrum, among others.`}
             />
           </SwiperSlide>
-
-
         </Swiper>
-
       </div>
     </div>
   );

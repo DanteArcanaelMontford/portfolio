@@ -1,0 +1,13 @@
+.skill__bars {
+  width: 75%;
+  margin: auto;
+}
+
+.skill__bars:hover  .progressBar{
+  opacity: 0.2;
+}
+
+.skill__bars .progressBar:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
