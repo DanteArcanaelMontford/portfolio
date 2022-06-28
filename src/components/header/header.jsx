@@ -7,8 +7,8 @@ function Header() {
         <p>
           I<span>'</span>m
         </p>
-        <h1>{'<Renato/>'}</h1>
       </h2>
+      <h1>{'<Renato/>'}</h1>
       <h2>Full Stack Developer and Security Analist</h2>
     </div>
   );
