@@ -1,0 +1,28 @@
+.projects {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  width: 100%;
+  padding: 12px;
+  /* background-color: red; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.container {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  padding: 12px;
+  width: 100vh;
+}
+
+.title {
+  text-align: center;
+}

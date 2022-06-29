@@ -5,8 +5,9 @@ import Contact from "./components/contact/contact";
 import Navbar from "./components/nav/nav";
 import Footer from "./components/footer/footer";
 import Works from "./components/works/works";
+import Projects from "./components/projects/projects";
 
-function WebContent() {
+function App() {
   return (
     <>
       <div className="bg-circle1"></div>
@@ -17,9 +18,10 @@ function WebContent() {
       <Home />
       <About />
       <Works />
+      <Projects />
       <Contact />
       <Footer />
     </>
   );
 }
-export default WebContent;
+export default App;

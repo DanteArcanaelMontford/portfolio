@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
 import './style.css';
-import WebContent from './app';
+import App from './app';
 
-ReactDOM.render(<WebContent />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // const toggle = document.querySelector('.hover-show');
 
