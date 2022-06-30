@@ -1,7 +1,6 @@
 import ProjectCard from '../projectCard/projectCard';
 import style from './projects.module.css';
 import rotate_menu from "../imgs/rotate_menu.png"
-import img from "../props/img4.jpg"
 import link_tree from "../imgs/link_tree.png"
 import barbershop from "../imgs/barbershop.png"
 import github_browser from "../imgs/github_browser.png"
